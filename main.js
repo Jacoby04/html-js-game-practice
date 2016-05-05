@@ -36,6 +36,8 @@ Adds in the new game component.
  */
 function startGame() {
     myGameArea.start();
+
+    // Multiple components can be made in the same manner.
     myGamePiece = new component(30, 30, "red", 10, 120);
 }
 
